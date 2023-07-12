@@ -18,7 +18,7 @@
 ```http
   GET /api/users
 ```
-Bu url ilə biz bütün dataları görür, həmin url-də POST ilə yeni data əlavə edə,
+Bu url ilə biz bütün dataları görür, həmin url-də POST ilə yeni data əlavə edə bilirik
 
 
 #### Fetch item
