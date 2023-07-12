@@ -31,10 +31,24 @@ services:
     restart: "always"
     env_file: ./.env
     volumes:
-      - .:/code
+      - ./static:/code/static
+
     ports:
       - "8000:8000"
     # links:
     #   - postgres
     depends_on:
       - "postgres"
+
+  celery:
+    build: .
+    command: celery -A core worker --loglevel=info
+    volumes:
+      - .:/code
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
