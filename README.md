@@ -41,8 +41,8 @@ Bu url-də GET ilə İP address-lərini görə, POST metodu ilə yeni bir İP ad
   
 ## Appendices
 
-NoSQL olaraq MongoDB-dən istifadə olunub.Proyekt PostgreSql databazasından istifadə edilərək qaldırılır.Celery və Redis tam şəkildə qoşularaq çalışır.Docker-compose up edərək proyekt servərə qaldırılır. Nginx ayarlarında istifadə elədiklərim bəzi ayarlamalar DigitialOceanda yaratdığım droplet-ə məxsusdur.
+NoSQL olaraq MongoDB-dən istifadə olunub.Proyekt PostgreSql databazasından istifadə edilərək qaldırılır.Celery və Redis tam şəkildə qoşularaq çalışır.Docker-compose up edərək proyekt servərə qaldırılır. Nginx ayarlarında istifadə elədiyim bəzi ayarlamalar DigitialOceanda yaratdığım droplet-ə məxsusdur.
 
-Kod olaraq doğru yazdığımı düşünürəm, shell-də yoxladıqdada istədiyim nəticəni alıram sadəcə tam vaxt edib paketlərlə bağlı sıxıntıya baxa bilmedim.
+Kod olaraq doğru yazdığımı düşünürəm, shell-də yoxladıqdada istədiyim nəticəni alıram sadəcə tam vaxt edib paketlərlə bağlı sıxıntıya baxa bilmədim.
 
   
